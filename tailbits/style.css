@@ -1,0 +1,72 @@
+.head h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 10px;
+
+
+}
+
+.head p {
+
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;
+    color: gray;
+}
+
+.head {
+    text-align: center;
+}
+
+.head.parte1 {
+    justify-content: center;
+    display: flex
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 50px auto;
+    position: relative;
+
+}
+
+.parte1 h1 {
+    font-size: 20px;
+
+}
+
+.parte1 {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+body {
+    background-color: #EEE;
+    font-family: 'Poppins', sans-serif;
+}
+
+.parte1 span {
+    font-size: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 20px;
+    color: blueviolet;
+}
+
+.linea {
+    width: 0px;
+    height: 80%;
+    position: absolute;
+    border-right: 6px dotted rgb(205, 201, 201);
+    z-index: -9;
+    left: 37px;
+
+}
+
+.parte1 p {
+    color: gray;
+}
